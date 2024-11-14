@@ -37,9 +37,9 @@ python client.py
 ## Code Explanation
 
 ### Server
-* The server waits for incoming connections and spawns a new thread for each connected client.
+* The server waits for incoming connections and creates a new thread for each connected client.
 * Each thread handles a client's communication, receiving messages and responding with the message in uppercase.
 
 ### Client
 * The client connects to the server, prompts the user for input, sends the message to the server, and then prints the server's response.
-* If the user inputs DISCONNECT, the client sends that message to the server and terminates the connection.
+* If the user inputs DESCONEXION, the client sends that message to the server and terminates the connection.

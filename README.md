@@ -19,7 +19,7 @@ python server.py
 ## How to Run the Client
 
 1. Open another terminal window.
-2. Navigate to the directory where client.py is located.
+2. Navigate to the directory where `client.py` is located.
 3. Run the client by executing the following command:
 
 ```bash
